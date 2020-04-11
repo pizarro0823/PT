@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/png" href="./favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./favicon/favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+    <header class="header">
+      <ul class="header__meta">
+        <li>Current version: <strong>1.1.1</strong></li>
+        <li>Company: <strong>Qi</strong></li>
+      </ul>
+
+      <div class="container">
+        <div class="header__introduction">
+          <h1>Cristian Pizarro </h1>
+          <p>Analyst and Developer Software </p>
+          <p>I work with JavaScrip, Android and IOS native with Flutter</p>
+
+    
+          </div>
+        </div>
+      </div>
+
+      <a class="header__scroll scroll" href="#documentation">
+        <span class="scroll__text">Get in Touch With Me</span>
+       
+      </a>
+
+      <canvas class="header__background"></canvas>
+    </header>
+
+    <div class="documentation">
+      <a name="documentation"></a>
+
+      <div class="container container--large">
+        <div class="installation">
+          <a name="installation"></a>
+
+         
+        <div class="donations">
+          <a name="donations"></a>
+
+          
+ <!-- contact -->
+ <section id="contact">
+  <div class="box">
+    <h2 class="section-title">Correo</h2>
+    <div class="divide60"></div>
+    <div class="row text-center services-2">
+      <div class="col-md-6 col-sm-6"> <i class="budicon-telephone"></i>
+        <p></p>
+      </div>
+      <div class="col-md-6 col-sm-6"> <i class="budicon-mail"></i>
+        <p> <a class="nocolor" href="mailto:#">pizarro0823@gmail.com</a></p>
+      </div>
+    </div>
+    <!-- /.services-2 -->
+    <div class="divide60"></div>
+    
+  </div>
+  <!-- /.box --> 
+</section>
+<!-- /#contact -->
+
+     <!-- footer --> 
+    <footer class="footer box">
+      <p class="pull-left">© Cristian Pizarro -  Dev</p>
+      <ul class="social pull-right">
+        <li><a href="https://www.youtube.com/" title="Youtube channel"><i class="icon-s-youtube"></i></a></li>
+        <li><a href="https://www.linkedin.com/"  title="Linkedin"><i class="icon-s-linkedin"></i></a></li>
+        <li><a href="https://github.com/" title="GitHub"><i class="icon-s-github"></i></a></li>
+        <li><a href="https://www.instagram.com" title="Instagram "><i class="icon-s-instagram"></i></a></li>
+      </ul>
+      <div class="clearfix"></div>
+    </footer>
+    <!-- /footer --> 
+    
+
+    
+
+    <script src="https://npmcdn.com/particlesjs@2.2.2/dist/particles.min.js"></script>
+    <script>
+      window.onload = function() {
+        Particles.init({
+          selector: '.header__background',
+          color: '#75A5B7',
+          maxParticles: 130,
+          connectParticles: true,
+          responsive: [
+            {
+              breakpoint: 768,
+              options: {
+                maxParticles: 80
+              }
+            }, {
+              breakpoint: 375,
+              options: {
+                maxParticles: 50
+              }
+            }
+          ]
+        });
+      };
+    </script>
+  </body>
+</html>
